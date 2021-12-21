@@ -15,7 +15,7 @@ module.exports = merge(base, {
                     {
                         loader: "css-loader", // translates CSS into CommonJS
                         options: {
-                            modules: false,
+                            modules: true,
                         },
                     },
                 ],

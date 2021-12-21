@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom";
 import App from "./App";
-import './less/public'
+import less from'./less/public';
 ReactDom.render(
-    <App/>,
+    <App name="jarry"/>,
     document.getElementById("app")
 )
